@@ -4,12 +4,6 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
-
 public class MainActivity extends Activity {
 //    http://op.juhe.cn/onebox/hospital/queryhospital=%E5%AE%81%E6%B3%A2%E7%AC%AC%E4%B8%80%E5%8C%BB%E9%99%A2&dtype=&key=80e6cb4b13532b62ba8f00c3505a6988
     private String surl = "http://op.juhe.cn/onebox/hospital/query.php?";
